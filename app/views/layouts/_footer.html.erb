@@ -1,0 +1,21 @@
+<head>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+  <%= stylesheet_link_tag "footer", media: 'all', "data-turbolinks-track": "reload" %>
+</head>
+
+<body>
+  <footer>
+    <div>
+      <img src="<%= asset_path('crypto.png') %>" alt="Coin logo" class="logo-footer">
+    </div>
+
+    <div class="copyright">
+      <p>
+        ©2022<strong>Crypto Wallet</strong>. 
+        <br>
+        Todos os direitos reservados.
+      </p> 
+    </div>
+  </footer>
+</body>

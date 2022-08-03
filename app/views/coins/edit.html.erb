@@ -1,0 +1,7 @@
+<div style="padding:10px;">
+    <h1><%= t('edit-title.coin') %></h1>
+
+    <%= render 'form', coin: @coin %>
+
+    <%= link_to t('backing.coin'), coins_path, class:"btn btn-lg"  %>
+</div>

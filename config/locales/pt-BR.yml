@@ -1,0 +1,52 @@
+pt-BR:
+  current_locale: "Português do Brasil"
+  description: "Descrição"
+  acronym: "Acrônimo"
+  url-image: "URL da Imagem"
+  home-menu: "Página Inicial"
+  cois-menu: "Moedas"
+  mining-types-menu: "Tipos de Mineração"
+  about-menu: "Sobre"
+  contact-menu: "Contatos"
+  welcome: "Seja Bem-vindo ao Crypto Wallet!"
+  welcome-msg: "Aqui você pode cadastrar suas criptomoedas e acompanhá-las facilmente!"
+  menu-msg: "Para começar, selecione uma das opções abaixo:"
+  coins: "Moedas"
+  mining-type: "Tipos de Mineração"
+  content-title: "Conteúdo "
+  hello: "Olá Mundo"
+  links:
+    edit: "Editar"
+    show: "Mostrar"
+    delete: "Apagar"
+    new: "Novo"
+    back: "Voltar"
+  new:
+    coin: "Nova Moeda"
+    mining-type: "Novo Tipo de Mineração"
+  editing:
+    coin: "Edite essa moeda"
+    mining-type: "Edite esse tipo de mineração"  
+  showing:
+    coin: "Mostre essa moeda"
+    mining-type: "Mostre esse tipo de mineração"
+  backing:
+    coin: "Volte para moedas"
+    mining-type: "Volte para tipos de mineração"
+  destroying:
+    coin: "Destruir essa moeda"
+    mining-type: "Destruir esse tipo de mineração"       
+  messages:
+    confirm: "Você tem certeza?"
+  coin-title: "Moedas"
+  cotation-title: "Cotação"
+  value-title: "Valor"
+  new-coin: "Nova moeda"
+  mining-type-title: "Tipos de Mineração"
+  new-mining-type: "Novo tipo de mineração"
+  edit-title: 
+    coin: "Editando moeda"
+    mining-type: "Editando tipo de mineração"
+  new-title:
+    coin: "Nova moeda"
+    mining-type: "Novo tipo de mineração"    

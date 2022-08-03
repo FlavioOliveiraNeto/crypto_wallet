@@ -1,0 +1,30 @@
+<head>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+  <%= stylesheet_link_tag "header", media: 'all', "data-turbolinks-track": "reload" %>
+</head>
+
+<body>
+  <header>
+    <div>
+      <img src="<%= asset_path('crypto.png') %>" alt="Coin logo" class="logo-header">
+    </div>
+
+    <ul class="menu">
+      <li><a href="/welcome_page/index"> <%= t('home-menu') %> </a></li>
+      <li><a href="/coins"> <%= t('cois-menu') %> </a></li>
+      <li><a href="/mining_types"> <%= t('mining-types-menu') %> </a></li>
+      <li><a href="#"> <%= t('about-menu') %> </a></li>
+      <li><a href="#"> <%= t('contact-menu') %> </a></li>
+    </ul>
+
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <%= link_to "Português", root_path(locale: 'pt-BR'), class:"nav-link" %>
+      </li>
+      <li class="nav-item">
+        <%= link_to "English", root_path(locale: 'en'), class:"nav-link" %>
+      </li>
+    </ul>
+  </header>
+</body>

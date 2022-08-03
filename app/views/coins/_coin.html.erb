@@ -1,0 +1,17 @@
+<div id="<%= dom_id coin %>">
+  <p style="padding: 30px 0 10px 10px;">
+    <strong> <%= t('description') %> </strong>
+    <%= coin.description %>
+  </p>
+
+  <p style="padding: 30px 0 10px 10px;">
+    <strong> <%= t('acronym') %> </strong>
+    <%= coin.acronym %>
+  </p>
+
+  <p style="padding: 30px 0 10px 10px;"> 
+    <strong> <%= t('url-image') %> </strong>
+    <br>
+    <%= image_tag coin.url_image, style: 'height:45px; width:45px;' %>
+  </p>
+</div>

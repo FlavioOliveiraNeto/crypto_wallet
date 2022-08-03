@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mining Types</title>
+    <%= stylesheet_link_tag "mining_types", "data-turbo-track": "reload" %>
+</head>
+
+<body>
+  <div class="container-mining-types">
+    <main>
+      <h1> <%= t('mining-type-title') %> </h1>
+
+      <div class="new-mining-types">
+        <%= link_to t('new.mining-type'), new_mining_type_path, class:"btn btn-lg" %>
+      </div>
+      
+      <div>
+        <table class="table-one-mining-types">
+          <thead>
+            <tr>
+              <th><p><%= @mining_types.human_attribute_name(:description) %></p></th>
+              <th><p><%= @mining_types.human_attribute_name(:acronym) %></p></th>
+            </tr>
+          </thead>
+
+          <tbody class="table-body-mining-types">
+            <% @mining_types.each do |mining_type| %>
+              <tr>
+                <td><%= mining_type.description %></td>
+                <td><%= mining_type.acronym %></td>
+                <td><%= link_to t('links.show'), mining_type, class:"btn btn-lg" %></td>
+                <td><%= link_to t('links.edit'), edit_mining_type_path(mining_type), class:"btn btn-lg" %></td>
+                <td><%= link_to t('links.delete'), mining_type, class:"btn btn-lg", method: :delete, data: { confirm: t('messages.confirm') } %>
+              </tr>
+            <% end %>
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

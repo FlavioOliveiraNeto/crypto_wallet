@@ -1,0 +1,52 @@
+en:
+  current_locale: "English (International)"
+  description: "Description"
+  acronym: "Acronym"
+  url-image: "URL Image"
+  home-menu: "Home"
+  cois-menu: "Coins"
+  mining-types-menu: "Mining Types"
+  about-menu: "About"
+  contact-menu: "Contact"
+  welcome: "Welcome to Crypto Wallet!"
+  welcome-msg: "Here you can register and keep up your cryptos easily!"
+  menu-msg: "For start, choose an option: "
+  coins: "Coins"
+  mining-type: "Mining Types"
+  content-title: "Content "
+  hello: "Hello world"
+  links:
+    edit: "Edit"
+    show: "Show"
+    delete: "Delete"
+    new: "New"
+    back: "Back"
+  new:
+    coin: "New Coin"
+    mining-type: "New Mining Type"
+  editing:
+    coin: "Edit Coin"
+    mining-type: "Edit Mining Type"  
+  showing:
+    coin: "Show Coin"
+    mining-type: "Show Mining Type"
+  backing:
+    coin: "Back to coins"
+    mining-type: "Back to mining types"
+  destroying:
+    coin: "Destroy this coin"
+    mining-type: "Destroy this mining type"      
+  messages:
+    confirm: "Are you sure you?"
+  coin-title: "Coins"
+  cotation-title: "Cotation"
+  value-title: "Value"
+  new-coin: "New coin"
+  mining-type-title: "Mining Types"
+  new-mining-type: "New mining type"
+  edit-title: 
+    coin: "Editing coin"
+    mining-type: "Editing mining type"
+  new-title: 
+    coin: "New coin"
+    mining-type: "New mining type"      

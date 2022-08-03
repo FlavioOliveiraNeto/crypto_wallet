@@ -1,0 +1,7 @@
+<div style="padding:10px;">    
+    <h1><%= t('new-title.mining-type') %></h1>
+
+    <%= render 'form', mining_type: @mining_type %>
+
+    <%= link_to t('backing.mining-type'), mining_types_path, class:"btn btn-lg" %>
+</div>   

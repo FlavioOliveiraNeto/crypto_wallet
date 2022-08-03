@@ -1,0 +1,14 @@
+{
+  "name": "crypto_wallet",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "jquery": "^3.6.0",
+    "notifyjs": "^3.0.0",
+    "popper.js": "^1.16.1"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "FlavioOliveiraNeto <oliveiraneto.flavio2001@gmail.com>",
+  "license": "MIT"
+}
